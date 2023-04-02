@@ -1,5 +1,5 @@
-import styles from "../styles/Home.module.css";
-import { Headline } from "@/components/Headline";
+import styles from "./Main.module.css";
+import { Headline } from "../components/Headline";
 
 export function Main(props) {
   return (

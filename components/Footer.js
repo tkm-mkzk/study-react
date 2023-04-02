@@ -1,9 +1,12 @@
-import styles from "../styles/Home.module.css";
+import styles from "./Footer.module.css";
 
 export function Footer() {
   return (
     <footer className={styles.footer}>
-      footer
+      <a>
+        Thanks by{" "}
+        <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+      </a>
     </footer>
-  )
+  );
 }
