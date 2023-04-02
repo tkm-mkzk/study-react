@@ -1,10 +1,10 @@
-import Head from 'next/head'
-import { Inter } from 'next/font/google'
-import styles from '../styles/Home.module.css'
-import Headline from '@/components/Headline'
-import { Footer } from '@/components/Footer'
+import Head from "next/head";
+import { Inter } from "next/font/google";
+import styles from "../styles/Home.module.css";
+import { Footer } from "@/components/Footer";
+import { Headline } from "@/components/Headline";
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -20,5 +20,5 @@ export default function Home() {
 
       <Footer />
     </div>
-  )
+  );
 }
